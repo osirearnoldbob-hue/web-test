@@ -3,75 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./design.css">
-    <title>student ict training center</title>
+    <title>Student ICT Training Centre</title>
+    <link rel="stylesheet" href="design.css">
 </head>
-<body>
+
+<body id="top">
+    <!-- (a) Header, navigation, main content and footer -->
     <header>
-        <div class="logo">ISBAT UNIVERSITY STUDENT ICT TRAINING CENTER</div>
-        <main>
+        <h1>ISBAT University Student ICT Training Centre</h1>
+
+        <!-- (b) Internal navigation links -->
+        <nav aria-label="Main navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#courses">Courses</a>
+            <a href="#timetable">Timetable</a>
+            <a href="#registration">Registration</a>
+        </nav>
+    </header>
+
+    <main>
         <section id="home">
-            <h1>Welcome to iSBAT university website for ICT PRACTICE</h1>
-            <p>This website guides through the ways of registering for the 
-                students ICT training practice at ISBAT UNIVERSITY
+            <h2>Welcome to the ICT Training Centre</h2>
+            <p>
+                Find information about our available training programmes,
+                weekly timetable, and student registration.
             </p>
         </section>
-        </main>
-        <nav>
-            <li>
-                <a href="#home">home</a>
-                 <a href="#about us">about us</a>
-                 <a href="#cousres">cousres</a>
-                 <a href="#time table">time table</a>
-                 <a href="registration">registration</a>
-            </li>
-        </nav>
 
-    </header><hr>
-    <section id="about us">
-        <h2>ABOUT US</h2>
-        <P>The student ICT training center at ISBAT university is here to bring 
-        skills,knowledge and innovation to young youth especially students.this to bring 
-        awareness of the new technology to the communiy.    
-        </P>
-        <p>
-        The training center offers free cousres on ICT, programming and many others 
-        cousres, the training center is located at ISBAT university main campus on 
-        the fifth floor room 30. For more information contact on the toll free line
-        tel:0760301178 or 
-        email:isbatuniicttrainingcenter@gmail.com
-        </p>
-        <img src="./training1.jpg" alt="personal practice on computer" class="image-1">
-        <img src="./training2.jpg" alt="learning sesson of ICT" class="image">
-        <img src="./training3.jpg" alt="student present his knowledge on ict" class="image">
-    </section>
+        <!-- (c) About Us section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                The Student ICT Training Centre at ISBAT University helps
+                students build practical skills and knowledge in information
+                and communication technology.
+            </p>
+            <p>
+                The centre provides training activities in areas such as
+                programming, networking, databases, and cybersecurity.
+                Students practise their skills and learn how technology is
+                used to solve everyday problems.
+            </p>
 
-    <section id="cousres" class="cousres">
-        <h3>COUSRES</h3>
-        <ul>
-            <li>Web Developement</li>
-            <li>Computer Networking</li>
-            <li>Database Managment</li>
-            <li>Cyber security</li>
-        </ul>
-        <ol>
-            <h3>STEP TO FOLLOW TO REGISTER FOR A TRAINING PROGRAMME</h3>
-            <li>
-                search for the website  in google
-            </li>
-            <li> go to the registration form</li>
-            <li>fill in the required information in the register</li>
-            <li>submitt the form</li>
-        </ol>
-    </section>
-    <table id="time table">
-        
-    </table>
-    
-    
-    
-    
-    <footer>website 2026 copy right all rights reserved</footer>
+            <img src="training1.jpg" alt="Student practising on a computer">
+            <img src="training2.jpg" alt="Students attending an ICT lesson">
+            <img src="training3.jpg" alt="Student presenting ICT knowledge">
+        </section>
+
+        <!-- (d) Course lists -->
+        <section id="courses">
+            <h2>Training Courses</h2>
+
+            <h3>Available Programmes</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Computer Networking</li>
+                <li>Database Management</li>
+                <li>Cybersecurity</li>
+            </ul>
+
+            <h3>Steps to Register</h3>
+            <ol>
+                <li>Choose a training programme.</li>
+                <li>Complete the student registration form.</li>
+                <li>Check that the information is correct.</li>
+                <li>Submit the form.</li>
+            </ol>
+
+            <!-- (g) Four course cards -->
+            <h3>Course Information</h3>
+            <div class="course-cards">
+                <article class="course-card">
+                    <h4>Web Development</h4>
+                    <p>Learn to build and style websites using HTML and CSS.</p>
+                </article>
+
+                <article class="course-card">
+                    <h4>Computer Networking</h4>
+                    <p>Learn how computers connect and communicate in networks.</p>
+                </article>
+
+                <article class="course-card">
+                    <h4>Database Management</h4>
+                    <p>Learn how information is stored and organised in databases.</p>
+                </article>
+
+                <article class="course-card">
+                    <h4>Cybersecurity</h4>
+                    <p>Learn basic methods for protecting computer systems and data.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- (e) Weekly timetable -->
+        <section id="timetable">
+            <h2>Weekly Training Timetable</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Course</th>
+                        <th>Time</th>
+                        <th>Instructor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Web Development</td>
+                        <td>9:00 AM – 11:00 AM</td>
+                        <td>Mr. James</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Computer Networking</td>
+                        <td>10:00 AM – 12:00 PM</td>
+                        <td>Ms. Amina</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Database Management</td>
+                        <td>9:00 AM – 11:00 AM</td>
+                        <td>Mr. Peter</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Cybersecurity</td>
+                        <td>1:00 PM – 3:00 PM</td>
+                        <td>Ms. Grace</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- (f) Student registration form -->
+        <section id="registration">
+            <h2>Student Registration</h2>
+
+            <form action="#" method="post">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="fullName" required>
+
+                <label for="student-number">Student Number:</label>
+                <input type="text" id="student-number" name="studentNumber" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="male">
+                        Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="other">
+                        Other
+                    </label>
+                </fieldset>
+
+                <label for="preferred-course">Preferred Course:</label>
+                <select id="preferred-course" name="preferredCourse" required>
+                    <option value="">Select a course</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="networking">Computer Networking</option>
+                    <option value="database-management">Database Management</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                </select>
+
+                <fieldset>
+                    <legend>Study Mode:</legend>
+                    <label>
+                        <input type="checkbox" name="studyMode" value="full-time">
+                        Full-time
+                    </label>
+                    <label>
+                        <input type="checkbox" name="studyMode" value="part-time">
+                        Part-time
+                    </label>
+                </fieldset>
+
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- (h) Back to Top link -->
+    <a class="back-to-top" href="#top">Back to Top</a>
+
+    <footer>
+        <p>&copy; 2026 ISBAT University Student ICT Training Centre. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
